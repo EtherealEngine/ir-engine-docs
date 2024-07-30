@@ -1,0 +1,112 @@
+name: Deploy Docs Site
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**/*.md'
+      - '.*ignore'
+
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - '**/*.md'
+      - '.*ignore'
+
+  workflow_dispatch:
+
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_REGION: us-east-1
+  NODE_VERSION: 20
+
+jobs:
+  test-build-site:
+    name: Test Build Site
+    if: github.event_name == 'pull_request'
+
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Test Build Docs Site
+        run: |
+          npm install 
+          npm run build
+
+
+  build-and-deploy-site:
+    name: Build and Deploy Site
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    environment:
+      name: prd
+    env:
+      AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
+
+    defaults:
+      run:
+        working-directory: .
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Setup Terragrunt
+        uses: autero1/action-terragrunt@v1.1.0
+        with:
+          terragrunt_version: 0.50.8
+
+      - name: Set Terragrunt Output Values
+        working-directory: ./iac/prd/us-east-1/ir-engine-docs
+        run: |
+          terragrunt output -json > tg_out.json
+          echo "S3_BUCKET=$(cat tg_out.json | jq -r .s3_bucket_name.value)" >> $GITHUB_ENV
+          echo "CLOUDFRONT_ID=$(cat tg_out.json | jq -r .cloudfront_id.value)" >> $GITHUB_ENV
+        env:
+          AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }} 
+          AWS_ACCESS_KEY_ID: ${{ env.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          AWS_ROLE_ARN: ${{ env.AWS_ROLE_ARN }}
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          role-to-assume: ${{ env.AWS_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+          role-skip-session-tagging: true
+
+      - name: Build App
+        run: |
+          npm install 
+          npm run build
+
+      - name: Deploy to S3
+        working-directory: ./dist
+        run: |
+          aws s3 cp . "${{ env.S3_BUCKET }}" --recursive
+
+      - name: Invalidate CDN
+        run: |
+          echo "Invalidating CDN $CDN_ID"
+          aws cloudfront create-invalidation \
+            --distribution-id "${{ env.CLOUDFRONT_ID }}" \
+            --paths "/*"
