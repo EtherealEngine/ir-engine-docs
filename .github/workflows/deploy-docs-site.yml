@@ -89,6 +89,8 @@ jobs:
           echo "CLOUDFRONT_ID=$(cat tg_out.json | jq -r .cloudfront_id.value)" >> $GITHUB_ENV
         env:
           AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }} 
+          AWS_ACCESS_KEY_ID: ${{ env.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ env.AWS_SECRET_ACCESS_KEY }}
           AWS_ROLE_ARN: ${{ env.AWS_ROLE_ARN }}
 
       - name: Configure AWS credentials
@@ -99,6 +101,7 @@ jobs:
           role-to-assume: ${{ env.AWS_ROLE_ARN }}
           aws-region: ${{ env.AWS_REGION }}
           role-skip-session-tagging: true
+
 
       - name: Deploy to S3
         working-directory: ./dist/apps/ir-console
