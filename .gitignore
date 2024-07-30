@@ -128,3 +128,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+.astro
+
+# IaC
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.lock*
+.terragrunt-cache/
+*terragrunt-debug*
