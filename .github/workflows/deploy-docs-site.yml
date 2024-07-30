@@ -1,4 +1,4 @@
-name: Deploy Client Console
+name: Deploy Docs Site
 
 on:
   push:
