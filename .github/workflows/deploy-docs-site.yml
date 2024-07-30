@@ -24,8 +24,7 @@ env:
 jobs:
   test-build-site:
     name: Test Build Site
-    # if: github.event_name == 'pull_request'
-    if: github.event_name == 'push'
+    if: github.event_name == 'pull_request'
 
     runs-on: ubuntu-latest
     defaults:
@@ -49,8 +48,7 @@ jobs:
 
   build-and-deploy-site:
     name: Build and Deploy Site
-    # if: github.event_name == 'push'
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
       name: prd
