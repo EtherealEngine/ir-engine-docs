@@ -15,6 +15,14 @@ resource "aws_cloudfront_function" "url_redirect" {
   code    = file("${path.module}/url-redirect.js")
 }
 
+resource "aws_cloudfront_function" "append-index" {
+  name    = "append_index_to_url"
+  runtime = "cloudfront-js-2.0"
+  comment = "Appends index.html to uri"
+  publish = true
+  code    = file("${path.module}/append-index.js")
+}
+
 resource "aws_cloudfront_distribution" "s3_distribution" {
   comment    = "${var.app_name} ${var.environment}"
   depends_on = [
@@ -32,7 +40,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
   enabled             = true
   is_ipv6_enabled     = true
-  default_root_object = "index.html"
+  # default_root_object = "index.html"
 
   default_cache_behavior {
     allowed_methods = [
@@ -57,7 +65,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 
     function_association {
       event_type   = "viewer-request"
-      function_arn = aws_cloudfront_function.url_redirect.arn
+      function_arn = aws_cloudfront_function.append-index.arn
     }
 
     viewer_protocol_policy = "redirect-to-https"
