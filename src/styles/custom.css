@@ -1,0 +1,21 @@
+/* Base styles for the navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Top-level directory labels (1st level nested groups) */
+nav ul > li > details > summary .group-label .large { /* Targets the top-level directory labels only */
+  font-size: 1em;
+}
+
+/* Second-level directory labels (2nd level nested groups) */
+nav ul li ul li details summary .group-label .large { /* Targets nested directory labels */
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+/* Style the text within the anchor tags (documents) */
+nav ul li a {
+  font-size: 0.9em;
+}
