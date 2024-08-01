@@ -75,8 +75,8 @@ export default defineConfig({
               label: 'Work with assets',
               collapsed: true,
               items: [
-                { label: 'Asset types', slug: 'guides/scene-development/working-with-assets/asset-types' },
-                { label: 'Import assets and files', slug: 'guides/scene-development/working-with-assets/import-assets-and-files' },
+                { label: 'Asset types guide', slug: 'guides/scene-development/working-with-assets/asset-types-guide' },
+                { label: 'Import files and assets', slug: 'guides/scene-development/working-with-assets/import-files-and-assets' },
                 { label: 'Load assets into scenes', slug: 'guides/scene-development/working-with-assets/load-assets-into-scenes' },
                 { label: 'Optimize assets for performance', slug: 'guides/scene-development/working-with-assets/optimize-assets-for-performance' },
               ],
