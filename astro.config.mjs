@@ -54,7 +54,7 @@ export default defineConfig({
               items: [
                 { label: 'System requirements', slug: 'guides/get-started/initial-setup/system-requirements' },
 				{ label: 'Sign up and login', slug: 'guides/get-started/initial-setup/sign-up-and-login' },
-				{ label: 'Create a Project', slug: 'guides/get-started/initial-setup/start-a-new-project' },
+				{ label: 'Start a new project', slug: 'guides/get-started/initial-setup/start-a-new-project' },
               ],
             },
           ],
@@ -64,15 +64,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              label: 'Building and managing scenes',
+              label: 'Build and manage scenes',
               collapsed: true,
               items: [
-                { label: 'Scene budget guidelines', slug: 'guides/scene-development/building-and-managing-scenes/scene-budget-guidelines' },
+                { label: 'Scene budget guidelines (WIP)', slug: 'guides/scene-development/building-and-managing-scenes/scene-budget-guidelines' },
                 { label: 'Add scenes to your project', slug: 'guides/scene-development/building-and-managing-scenes/add-scenes-to-your-project' },
               ],
             },
             {
-              label: 'Working with assets',
+              label: 'Work with assets',
               collapsed: true,
               items: [
                 { label: 'Asset types', slug: 'guides/scene-development/working-with-assets/asset-types' },
@@ -81,7 +81,6 @@ export default defineConfig({
                 { label: 'Optimize assets for performance', slug: 'guides/scene-development/working-with-assets/optimize-assets-for-performance' },
               ],
             },
-            { label: 'Entities and components', slug: 'guides/scene-development/entities-and-components' },
           ],
         },
         {
