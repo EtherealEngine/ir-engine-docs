@@ -141,8 +141,6 @@ The Viewport panel offers various rendering modes to control how your scene appe
 
 Figure 9. Rendering modes.
 
-### Render modes
-
 ### Unlit
 
 The **Unlit** [**insert screenshot**] mode removes all lighting calculations, resulting in a flat, shadowless view of your scene. It's suitable for initial-scene-setup before adding lighting elements.

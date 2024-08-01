@@ -1,6 +1,8 @@
 ---
-title: System requirements
+title: System requirements (WIP)
 description: A guide in my new Starlight docs site.
 ---
 
-Lorem ipsum.
+:::caution[Page under construction]
+This page is currently under construction.
+:::

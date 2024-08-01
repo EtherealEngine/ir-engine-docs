@@ -52,7 +52,7 @@ export default defineConfig({
               label: 'Initial setup',
               collapsed: true,
               items: [
-                { label: 'System requirements', slug: 'guides/get-started/initial-setup/system-requirements' },
+                { label: 'System requirements (WIP)', slug: 'guides/get-started/initial-setup/system-requirements' },
 				{ label: 'Sign up and login', slug: 'guides/get-started/initial-setup/sign-up-and-login' },
 				{ label: 'Start a new project', slug: 'guides/get-started/initial-setup/start-a-new-project' },
               ],
@@ -95,7 +95,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              label: 'Build an Ecommerce Store',
+              label: 'Build an Ecommerce store with Shopify integration',
               collapsed: true,
               items: [
                 { label: 'Configure the Shopify plugin', slug: 'guides/tutorials-and-examples/build-an-ecommerce-store/configure-shopify-plugin' },

@@ -3,7 +3,7 @@ title: What is iR Engine
 description: Overview of the iR Engine.
 ---
 
-This document provides a comprehensive overview of the iR Engine, highlighting its core features and benefits.
+Learn about the iR Engine, its core features and benefits to build immersive experiences on the web.
 
 ## About the iR Engine
 
