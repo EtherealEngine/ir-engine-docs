@@ -52,7 +52,7 @@ The Studio supports a wide range of asset formats and categories to enhance your
 Supported file formats include:
 
 - **3D model formats:** `.glb`, `.gltf`
-    - No support for: `.fbx`
+  - The Studio does not support `.fbx`
 - **Image formats:** `.png`, `.tiff`, `.jpeg`
 - **Audio formats:** `.mp3`, `.mpeg`, `.m4a`, `.wav`
 - **Video formats:** `.mp4`, `.mkv`, `.avi`
