@@ -29,10 +29,10 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
-              label: 'iR Engine Studio',
+              label: 'The iR Engine Studio',
               collapsed: true,
               items: [
-                { label: 'Introduction to the Studio', slug: 'guides/get-started/ir-engine-studio/introduction-to-the-studio' },
+                { label: 'Introduction to Studio', slug: 'guides/get-started/ir-engine-studio/introduction-to-studio' },
                 {
                   label: 'Studio interface',
                   collapsed: true,
