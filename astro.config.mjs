@@ -52,16 +52,9 @@ export default defineConfig({
               label: 'Initial setup',
               collapsed: true,
               items: [
-                { label: 'Sign up and login', slug: 'guides/get-started/initial-setup/sign-up-and-login' },
                 { label: 'System requirements', slug: 'guides/get-started/initial-setup/system-requirements' },
-              ],
-            },
-            {
-              label: 'Creating projects',
-              collapsed: true,
-              items: [
-                { label: 'Understanding Entities', slug: 'guides/get-started/creating-projects/understanding-entities' },
-                { label: 'Create a Project', slug: 'guides/get-started/creating-projects/create-a-project' },
+				{ label: 'Sign up and login', slug: 'guides/get-started/initial-setup/sign-up-and-login' },
+				{ label: 'Create a Project', slug: 'guides/get-started/initial-setup/start-a-new-project' },
               ],
             },
           ],
