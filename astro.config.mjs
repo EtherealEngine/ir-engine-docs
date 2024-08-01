@@ -21,7 +21,7 @@ export default defineConfig({
           items: [
             { label: 'About this site', slug: 'guides/introduction/about-this-site' },
             { label: 'What is iR Engine', slug: 'guides/introduction/ir-engine-overview' },
-            { label: 'Key terminology', slug: 'guides/introduction/key-terminology' },
+            { label: 'Glossary', slug: 'guides/introduction/glossary' },
           ],
         },
         {
@@ -50,7 +50,7 @@ export default defineConfig({
             },
             {
               label: 'Initial setup',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: 'Sign up and login', slug: 'guides/get-started/initial-setup/sign-up-and-login' },
                 { label: 'System requirements', slug: 'guides/get-started/initial-setup/system-requirements' },
