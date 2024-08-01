@@ -1,5 +1,5 @@
 ---
-title: Scene budget guidelines
+title: Scene budget guidelines (WIP)
 description: A guide in my new Starlight docs site.
 ---
 
