@@ -16,7 +16,7 @@ Figure 1. Location of the Properties panel.
 
 From the **Properties** panel, after selecting an entity, you can perform the following actions:
 
-### **View components**
+### View components
 
 The **Properties** panel lists all components attached to the selected entity.
 
@@ -25,7 +25,7 @@ The **Properties** panel lists all components attached to the selected entity.
 
 Figure 2. Default components of the selected entity.
 
-### **Edit properties**
+### Edit properties
 
 Modify the properties of each component directly in the panel.
 
@@ -34,7 +34,7 @@ Modify the properties of each component directly in the panel.
 
 Figure 3. Properties of the **Transform** and **Video** components of an entity.
 
-### **Add new components**
+### Add new components
 
 Use the **Add Component** option to add new components to the selected entity.
 

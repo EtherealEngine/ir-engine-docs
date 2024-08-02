@@ -53,6 +53,11 @@ When creating a Location, you can configure its settings. Here’s a breakdown o
   - **Audio Enabled**: Users can share audio within the Location.
   - **Screen Sharing Enabled**: Users can share their screens within the Location.
 
+> Insert screenshot
+> 
+
+Figure 3. Create Location modal screen.
+
 ## Additional tips
 
 Here are some additional tips to ensure a smooth publishing process:

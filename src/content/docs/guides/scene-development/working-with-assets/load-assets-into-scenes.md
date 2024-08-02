@@ -57,7 +57,7 @@ For a more visual placement, you can load assets directly into the **Viewport**:
 > Insert screenshot
 > 
 
-Figure 3. An asset loaded into the Viewport.
+Figure 3. An asset loaded into the **Viewport**.
 
 ## What happens next
 
