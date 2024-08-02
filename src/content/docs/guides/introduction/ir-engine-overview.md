@@ -19,7 +19,7 @@ The iR Engine empowers you to build, customize, and share dynamic, immersive env
 
 The iR Engine offers a suite of powerful features designed to elevate your world-building experience, including:
 
-### World-building on the Web
+### World-building on the web
 
 Build and manage your 3D environments entirely in the web.
 
