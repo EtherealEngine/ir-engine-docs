@@ -61,7 +61,7 @@ Figure 3. **Add new scene** option within your project’s scene collection.
     > Insert screenshot
     > 
 
-    Figure 4. **Add Scene** button location within the **Scenes** tab.
+    Figure 5. **Add Scene** button location within the **Scenes** tab.
 
 3. Optionally, you can rename your scene using the three-dot menu (**…**) on the scene thumbnail for better organization.
 

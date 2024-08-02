@@ -17,14 +17,14 @@ Entities are fundamental building blocks in the iR Engine. You will create an em
     > Insert screenshot
     > 
 
-    Figure 1.
+    Figure 1. **Empty** entity category in the Hierarchy.
 
 3. **Make the entity active:** Ensure your new entity is selected in the **Hierarchy** panel so its components are displayed in the **Properties** panel.
 
     > Insert screenshot
     > 
 
-    Figure 2.
+    Figure 2. Properties of your new entity.
 
 ## Step 2. Attach an Ecommerce Product component to your entity
 
@@ -48,21 +48,21 @@ With the Ecommerce Product component in place, you can now load your product int
     > Insert screenshot
     > 
 
-    Figure 3.
+    Figure 3. **Ecommerce Product** component and its settings.
 
 2. **Choose a product:** In the **Product** dropdown menu, select the product you want to load. This action configures the component to display the selected product.
 
     > Insert screenshot
     > 
 
-    Figure 4.
+    Figure 4. List of Shopify products.
 
 3. **Verify the product loads:** The entity now populates with the model of the selected product. You can see the product appear in the Viewport.
 
     > Insert screenshot
     > 
 
-    Figure 5.
+    Figure 5. Product loaded into the Viewport.
 
 :::note[You can’t find your Shopify product?]
 If the list of products does not show any of your Shopify products, ensure your store is correctly set up. Revisit the [Configure the Shopify plugin](link) guide to confirm proper integration.
@@ -92,7 +92,7 @@ When you load a Shopify product into your scene, clicking on it in the Viewport 
 > Insert screenshot
 > 
 
-Figure 6.
+Figure 6. Product ecommerce details view.
 
 ## Next steps: Adding videos to your store
 

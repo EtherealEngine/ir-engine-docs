@@ -18,7 +18,7 @@ To load your Shopify products into the iR Engine, enable and configure the Shopi
     > Insert screenshot
     > 
 
-    Figure 1.
+    Figure 1. Location of the **Configure** button in Console.
 
 3. **Enable the Shopify plugin:**
     - In the project settings, find the **Plugins** section.
@@ -27,7 +27,7 @@ To load your Shopify products into the iR Engine, enable and configure the Shopi
     > Insert screenshot
     > 
 
-    Figure 2.
+    Figure 2. Shopify integration toggle enabled.
 
 4. **Enter your Storefront Access Token:**
     - In the Shopify integration settings, locate the **Storefront Access Token** text field.

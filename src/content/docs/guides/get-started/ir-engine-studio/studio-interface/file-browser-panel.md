@@ -10,14 +10,14 @@ You can access the engine’s file browser through the **Files** tab:
 > Insert screenshot
 > 
 
-Figure 1.
+Figure 1. Location of the File browser panel.
 
 Files you upload appear inside the `assets` folder.
 
 > Insert screenshot
 > 
 
-Figure 2.
+Figure 2. View of the assets folder.
 
 :::note
 Because the **Files** tab contains crucial system files to run your engine, all the files outside of assets  and public folders are read-only and cannot be modified.
@@ -30,7 +30,7 @@ Assets inside the **File Browser** and **Assets Panel** have icons to provide a 
 > Insert screenshot
 > 
 
-Figure 3.  Files within a project and their preview.
+Figure 3.  Files within a project and their thumbnail preview.
 
 ## Exploring the file browser's options
 

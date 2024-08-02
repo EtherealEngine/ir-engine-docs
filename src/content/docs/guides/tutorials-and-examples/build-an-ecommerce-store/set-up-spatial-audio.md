@@ -19,7 +19,7 @@ First, load an audio file and attach it to an entity in your scene.
 
     > Insert screenshot
     > 
-    Figure 1.
+    Figure 1. Properties of your selected entity.
 
 2. **Expand the Media component:** In the **Properties** panel, expand the **Media** component to view its options.
 3. **Add a source path:** Click the **+** (plus) sign in the **Source Paths** section to create a new field named **Path 1**.
@@ -27,7 +27,7 @@ First, load an audio file and attach it to an entity in your scene.
     > Insert screenshot
     > 
 
-    Figure 2.
+    Figure 2. **Source Path** field for your audio file.
 
 4. **Locate your audio file:** Open the **Files** tab to find the audio source you want to use.
 5. **Attach the audio file:** Drag and drop your audio file from the **Files** tab into the source path text field. This action links the audio file to the entity.
@@ -35,7 +35,7 @@ First, load an audio file and attach it to an entity in your scene.
     > Insert screenshot
     > 
 
-    Figure 3.
+    Figure 3. Audio file linked to **Source Path**.
 
     Alternatively, right-click the file in the **Files** tab, copy its URL, and paste it into the source path field.
 
@@ -52,7 +52,7 @@ Once the audio file is attached, add a positional audio component to your entity
     > Insert screenshot
     > 
 
-    Figure 4.
+    Figure 4. Adding an **Audio** component.
 
     Alternatively, find it inside the **Files** component category.
 
@@ -61,7 +61,7 @@ Once the audio file is attached, add a positional audio component to your entity
     > Insert screenshot
     > 
 
-    Figure 5.
+    Figure 5. **Positional Audio** component added to your entity.
 
 ## Step 3. Configure the positional audio settings
 
@@ -74,7 +74,7 @@ After adding the positional audio component, configure its settings to define ho
     > Insert screenshot
     > 
 
-    Figure 6.
+    Figure 6. Settings for **Positional Audio**.
 
 2. **Adjust audio settings:** Configure settings such as the **distance model**, **rolloff factor**, **reference distance**, **audio cone angles**, and **max distance**. 
 

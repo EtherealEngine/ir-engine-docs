@@ -30,7 +30,7 @@ Follow these steps to create an iR Engine account:
     > Insert screenshot
     >
 
-    Figure 2. Configuring and **Organization** and **Sub Domain**.
+    Figure 2. Defining your **Organization** and **Sub Domain**.
 
     :::note
 

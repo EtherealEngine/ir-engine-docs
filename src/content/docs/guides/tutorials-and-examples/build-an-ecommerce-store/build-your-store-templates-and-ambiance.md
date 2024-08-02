@@ -30,7 +30,7 @@ If you cannot find templates that resemble a modern store to use in this tutoria
     > Insert screenshot
     > 
 
-    Figure 1.
+    Figure 1. Location of the **Assets** tab.
 
 2. **Find the model category:** In the list of assets on the left, locate and expand the **Model** category.
 3. **Select the templates category:** Click **Templates** to view the available model templates.
@@ -38,21 +38,21 @@ If you cannot find templates that resemble a modern store to use in this tutoria
     > Insert screenshot
     > 
 
-    Figure 2.
+    Figure 2. **Model** category expanded within the assets panel.
 
 4. **Choose the appropriate template:** For this tutorial, use the `NMS_HubsLM_Template_large.glb` model or any other that resembles a modern retail store. These type of files include models for your shopping experience with fully set light maps.
 
     > Insert screenshot
     > 
 
-    Figure 3.
+    Figure 3. Templates available to youse in your project.
 
 5. **Add the template to your scene:** Drag and drop your store file from the **Assets** tab into the bottom of the **Hierarchy** panel located at the top right of the Studio interface.
 
     > Insert screenshot
     > 
 
-    Figure 4.
+    Figure 4. **Template** showing as an entity at the bottom of the **Hierarchy**.
 
     This action creates a **New Object** with all your model’s elements. You can expand the model to see its objects, including **walls**, **flooring**, **box colliders**, **windows**, **display cases**, **ceiling**, and also the **lighting settings** of your store.
 
@@ -78,14 +78,14 @@ A skybox is a spherical environment that surrounds your scene, providing lightin
    > Insert screenshot
    > 
 
-   Figure 5.
+    Figure 5. **Properties** of the **EE_skybox** entity.
 
 3. Expand the **Skybox** component and set the **Sky Type** to **Equirectangular** from the dropdown menu.
 
     > Insert screenshot
     > 
 
-    Figure 6.
+    Figure 6. **Skybox** component showing **Sky Type** settings.
 
 ### 2. Assign a skybox image
 
@@ -95,7 +95,7 @@ A skybox is a spherical environment that surrounds your scene, providing lightin
      > Insert screenshot
      > 
 
-     Figure 7.
+     Figure 7. Assets available for **Skybox** files.
 
  3. Drag and drop the `desert_daytime_04.png` file into the **Texture** field in the **Properties** panel, ensuring the **EE_skybox** entity is selected.
 

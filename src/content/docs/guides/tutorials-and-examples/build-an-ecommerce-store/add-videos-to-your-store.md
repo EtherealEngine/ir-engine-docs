@@ -8,7 +8,7 @@ Videos can significantly enhance the interactivity and engagement of your virtua
 > Insert screenshot
 > 
 
-Figure 1.
+Figure 1. Example of a video on a screen.
 
 ## Step 1. Create video entities for your screens
 
@@ -22,7 +22,7 @@ To play videos in your store, you first need to create entities that will act as
     > Insert screenshot
     > 
 
-    Figure 2.
+    Figure 2. Adding a **Video** entity.
 
 3. **Activate the video entity:** Ensure your new video entity is selected in the **Hierarchy** panel so its components are displayed in the **Properties** panel.
 
@@ -38,14 +38,14 @@ After creating a video entity, you need to specify the video source that will pl
     > Insert screenshot
     > 
 
-    Figure 3.
+    Figure 3. **Media** component properties.
 
 3. **Add a source path:** Click the **+** (plus) sign in the **Source Paths** section to add a new source path field. This field will be named **Path 1** automatically.
 
     > Insert screenshot
     > 
 
-    Figure 4.
+    Figure 4. **Source Path** field for your video file.
 
 4. **Locate your video file:** Open the **Files** tab to find the video source you want to add to your entity.
 5. **Add the video file to the source path:** Drag and drop your video file from the **Files** tab into the text field of the newly created source path. This action links the video file to the video entity.
@@ -53,14 +53,14 @@ After creating a video entity, you need to specify the video source that will pl
     > Insert screenshot
     > 
 
-    Figure 5.
+    Figure 5. Video file linked to **Source Path**.
 
     Alternatively, you can right-click your file in the **Files** tab and copy its URL, then paste it into the source path field.
 
     > Insert screenshot
     > 
 
-    Figure 6.
+    Figure 6. **Copy URL** options on a file.
 
 ## Step 3. Configure video settings
 

@@ -26,7 +26,7 @@ Before publishing, ensure that your scene is complete and all elements are prope
     > Insert screenshot
     > 
 
-    Figure 1.
+    Figure 1. Location of the **Publish** button.
 
 2. **Configure virtual space details:**
     1. Click the **Publish** button to open the publishing menu.
@@ -34,7 +34,7 @@ Before publishing, ensure that your scene is complete and all elements are prope
         > Insert screenshot
         > 
 
-        Figure 2.
+        Figure 2. Configuring your **Location**'s settings.
 
     2. Fill in the necessary details for your virtual space; define maximum users, along with video, audio, and screen sharing options, and choose the type of location:
         - **Private**: Only users with specific access can enter.
@@ -48,7 +48,7 @@ Before publishing, ensure that your scene is complete and all elements are prope
         > Insert screenshot
         > 
 
-        Figure 3.
+        Figure 3. URL of your newly published **Location**.
 
 ## Step 3. Access and explore your store
 
