@@ -98,7 +98,8 @@ export default defineConfig({
               label: 'Build an Ecommerce store with Shopify integration',
               collapsed: true,
               items: [
-                { label: 'Configure the Shopify plugin', slug: 'guides/tutorials-and-examples/build-an-ecommerce-store/configure-shopify-plugin' },
+                { label: 'Introduction and requirements', slug: 'guides/tutorials-and-examples/build-an-ecommerce-store/introduction-and-prerequisites' },
+				{ label: 'Configure the Shopify plugin', slug: 'guides/tutorials-and-examples/build-an-ecommerce-store/configure-shopify-plugin' },
                 { label: 'Build your store: Templates and ambiance', slug: 'guides/tutorials-and-examples/build-an-ecommerce-store/build-your-store-templates-and-ambiance' },
                 { label: 'Load and place Shopify products', slug: 'guides/tutorials-and-examples/build-an-ecommerce-store/load-and-place-shopify-products' },
                 { label: 'Add videos to your store', slug: 'guides/tutorials-and-examples/build-an-ecommerce-store/add-videos-to-your-store' },
