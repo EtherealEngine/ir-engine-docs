@@ -33,8 +33,8 @@ Your scene is now published. You can access your **Location** using the generate
 
 Figure 2. URL to access your published Location.
 
-:::caution[All changes saved get published]
-Every time you make a change to your scene and save, the location in the published URL gets updated.
+:::caution[Update and save with caution]
+Every time you make a change to your scene and save, the location in the published URL gets updated. You can make your experience private if you want to test new saved changes before making them public.
 :::
 
 ## Set up your Location details
