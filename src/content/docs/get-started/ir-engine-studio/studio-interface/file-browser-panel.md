@@ -33,14 +33,12 @@ The following table describes each option available in the toolbar so you can ma
 
 | Option | Description |
 | --- | --- |
-| **Refresh** [Insert screenshot] | Reload the current folder to see any recent changes. |
-| **View options** [Insert screenshot] | Customize the File Browser's appearance, including adjusting font size and enabling or disabling specific columns. |
-| **Show items as** [Insert screenshot] | Choose to view your files as a list or with icons. |
-| **File location bar** [Insert screenshot] | Click on this bar to see the current folder's location within your project hierarchy and navigate directly to any folder. |
-| **Search bar** [Insert screenshot] | Quickly locate specific files within your project using the search function. |
-| **Create folder** [Insert screenshot] | Add a new folder within the current directory to organize your project further. |
-| **Download project** [Insert screenshot] | Create a zip archive of your entire project for backup or sharing purposes. |
-| **Upload Files** [Insert screenshot] | Import new files into your project through this modal window. |
-| **Upload Folder** [Insert screenshot] | Use it to upload multiple files contained in a folder into your project. This option helps you keep files with formats like gLTF organized in their original folder structure. |
+| **Refresh** <img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/refresh-button.png" alt="Refresh button" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> | Reload the current folder to see any recent changes. |
+| **View options** <img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/view-options-button.png" alt="View options button" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> | Customize the File Browser's appearance, including adjusting font size and enabling or disabling specific columns. |
+| **Show items as** <img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/list-view-button.png" alt="List view button" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"><img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/thumbnails-view-button.png" alt="Thumbnails view button" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> | Choose to view your files as a list or thumbnails. |
+| **File location bar**<img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/file-location-bar.png" alt="File location bar" style="height: 27px; display: inline; vertical-align: middle; border-radius: 8px;"> | Click on this bar to see the current folder's location within your project hierarchy and navigate directly to any folder. |
+| **Search bar** <img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/search-bar.png" alt="Search bar" style="height: 27px; display: inline; vertical-align: middle; border-radius: 8px;"> | Quickly locate specific files within your project using the search function. |
+| **Create folder** <img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/create-folder-button.png" alt="Create folder button" style="width: 33px; height: 33px; display: inline; vertical-align: middle; border-radius: 8px;"> | Add a new folder within the current directory to organize your project further. |
+| **Download project** <img src="/src/assets/images/get-started/ir-engine-studio/studio-interface/file-browser-panel/download-project-button.png" alt="Download project button" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> | Create a zip archive of your entire project for backup or sharing purposes. |
 
 Master these tools to effectively navigate and manage your project's assets within IR Engine Studio.
