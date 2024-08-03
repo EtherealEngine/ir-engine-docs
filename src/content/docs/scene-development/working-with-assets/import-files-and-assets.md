@@ -58,7 +58,7 @@ To import a complete glTF model that consists of multiple files, you must first 
 **To upload your folder**:
 
 1. Navigate to the **Files** tab in the Studio.
-2. Click the **Upload Folder** (insert-screenshot) button.
+2. Click the **Upload Folder** button.
 3. Select the folder containing all your glTF model files for upload.
 
 :::note[Uploading folders]
@@ -69,4 +69,4 @@ The iR Engine does not support uploading folders using single file upload method
 
 ## Next steps
 
-Now that your files are ready to use in your project, you can proceed to [load assets into your scenes](link) to begin building your experience.
+Now that your files are ready to use in your project, you can proceed to [load assets into your scenes](/scene-development/working-with-assets/load-assets-into-scenes) to begin building your experience.

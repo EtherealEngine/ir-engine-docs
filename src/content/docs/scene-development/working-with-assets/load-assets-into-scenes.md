@@ -17,7 +17,7 @@ The **Assets Library** is your central hub for all available assets. It is locat
 Additionally, you can access all project-related files you have added to your project in the **Files** tab.
 
 :::tip[Learn about asset categories]
-For detailed information on Asset categories and types of assets, refer to the [Asset types guide](link).
+For detailed information on Asset categories and types of assets, refer to the [Asset types guide](/scene-development/working-with-assets/asset-types-guide).
 :::
 
 ## Loading assets into your scene
@@ -76,4 +76,4 @@ When loading assets and creating entities into your scene, follow these tips:
 
 ## Next steps
 
-Now that you have placed assets within your scene, you can proceed to add components to your entities and configure their properties. To know more about this process, visit the [Properties panel](link) guide.
+With assets placed within your scene, you can proceed to add components to your entities and configure their properties. To know more about this process, visit the [Properties panel](/get-started/ir-engine-studio/studio-interface/properties-panel) guide.

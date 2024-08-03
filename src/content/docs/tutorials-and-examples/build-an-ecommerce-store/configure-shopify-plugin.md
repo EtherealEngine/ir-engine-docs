@@ -42,4 +42,4 @@ Completing these integration settings allows the iR Engine to access and load al
 
 ## Next steps: Build your store
 
-With your Shopify store integrated, proceed to the next guide on [building your store: using templates and setting the ambiance](notion://www.notion.so/Configure-the-Shopify-plugin-7ff730ef639e4dd6be17f68c562fee1f#). This guide covers how to use pre-configured models and add a skybox to create a complete shopping environment.
+With your Shopify store integrated, proceed to the next guide to [building your store and set up the ambiance](/tutorials-and-examples/build-an-ecommerce-store/build-your-store-templates-and-ambiance). This guide covers how to use pre-configured models and add a skybox to create a complete shopping environment.

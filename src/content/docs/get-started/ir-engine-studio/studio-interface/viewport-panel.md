@@ -14,7 +14,7 @@ The shelf at the top provides you with ways to interact with and view assets in 
 The Viewport provides intuitive navigation controls to allow you to explore and manipulate your scene effectively. While a trackpad may be used for basic navigation, **a mouse is highly recommended for optimal control.**
 
 :::note[Learn to navigate the Viewport]
-Consult the [Viewport navigation guide](https://tsu.atlassian.net/wiki/spaces/IREE/pages/2350120999) to learn the mouse and keyboard inputs available to control the camera and items within the window.
+Consult the Viewport's [Navigation controls](/get-started/ir-engine-studio/navigation-controls) guide to learn the mouse and keyboard inputs available to control the camera and items within the window.
 :::
 
 ## Viewport’s toolbar

@@ -49,8 +49,8 @@ With the Ecommerce Product component in place, you can now load your product int
 
     ![Product loaded into the Viewport](../../../../assets/images/tutorials-and-examples/build-an-ecommerce-store-with-shopify-integration/load-and-place-shopify-products/product-loaded-viewport.png)
 
-:::note[You can’t find your Shopify product?]
-If the list of products does not show any of your Shopify products, ensure your store is correctly set up. Revisit the [Configure the Shopify plugin](link) guide to confirm proper integration.
+:::note[Can't view your Shopify products?]
+If the list of products does not show any of your Shopify products, ensure your store is correctly set up. Revisit the [Configure the Shopify plugin](/tutorials-and-examples/build-an-ecommerce-store/configure-shopify-plugin) guide to confirm proper integration.
 :::
 
 ## Step 4. Position your product in the scene
@@ -78,4 +78,4 @@ When you load a Shopify product into your scene, clicking on it in the Viewport 
 
 ## Next steps: Adding videos to your store
 
-With your products loaded and positioned, the next guide focuses on enhancing your virtual store by adding videos. This includes creating video entities and configuring video resources to play within your scene.
+With your products loaded and positioned, the next guide focuses on enhancing your virtual experience by [adding videos to you store](/tutorials-and-examples/build-an-ecommerce-store/add-videos-to-your-store). This includes creating video entities and configuring video resources to play within your scene.

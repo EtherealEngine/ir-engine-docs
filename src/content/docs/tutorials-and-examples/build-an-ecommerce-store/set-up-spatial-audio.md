@@ -67,4 +67,4 @@ After adding the positional audio component, configure its settings to define ho
 
 ## Next steps: Publishing your store
 
-With spatial audio set up, your virtual store is nearly complete. The final guide focuses on publishing your store, making it accessible to users via a web link.
+With spatial audio set up, your virtual store is nearly complete. The final guide focuses on [publishing your store](/tutorials-and-examples/build-an-ecommerce-store/publish-your-store), making it accessible to users via a web link.

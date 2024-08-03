@@ -72,7 +72,7 @@ The Studio offers a wide variety of assets to bring your virtual world to life:
 | User-imported assets | Import your own custom 3D models, textures, and other compatible file formats. |
 
 :::tip[Learn more about assets]
-Consult the [Asset types](https://tsu.atlassian.net/wiki/spaces/IREE/pages/2307031053) guide for an in-depth view of assets available in the engine.
+Consult the [Asset types guide](/scene-development/working-with-assets/asset-types-guide) guide for an in-depth view of assets available in the engine.
 :::
 
 ### Beyond pre-built assets
@@ -83,7 +83,9 @@ While the Studio offers a vast collection of pre-built assets, it also empowers 
 
 For optimal performance, *use files under 300 MB*. Files over this size affect the performance of your experience both when building it in the Studio and when users access it on the web.
 
-Consider [optimizing your asset](https://tsu.atlassian.net/wiki/spaces/IREE/pages/2313584662) to help reduce file size and ensure a smooth experience for both you and your users.
+:::tip[Optimizing your assets]
+Learn to [Optimize assets for performance](/scene-development/working-with-assets/optimize-assets-for-performance) to help reduce file size and ensure a smooth experience for you and your users.
+:::
 
 ## Accessing the Studio
 

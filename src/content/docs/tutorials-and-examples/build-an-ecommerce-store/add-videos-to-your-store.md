@@ -57,4 +57,4 @@ With the video source linked, you can further configure the video settings to fi
 
 ## Next steps: Setting up spatial audio
 
-With videos successfully added to your store, the next guide focuses on adding spatial audio. Spatial audio enhances the immersive experience by creating realistic sound environments based on object positioning and user interactions.
+With videos successfully added to your store, the next guide focuses on [adding spatial audio](/tutorials-and-examples/build-an-ecommerce-store/set-up-spatial-audio). Spatial audio enhances the immersive experience by creating realistic sound environments based on object positioning and user interactions.

@@ -9,7 +9,7 @@ Learn to create your first project in the iR Engine.
 
 To create a project, you need to access the **Console**, your central project management hub. Follow these steps:
 
-1. Go to [ir.world](http://ir.world/) to open the engine.
+1. Go to [preview.ir.world](http://preview.ir.world/) to open the engine.
 2. Log into the iR Engine using your credentials.
 
 Once you log into the Console, you immediately land on the **My Projects** page.
@@ -35,4 +35,4 @@ You are now directed to the **Studio**, where you can begin your creative work a
 
 ## Next steps: Add scenes to your project
 
-You have successfully created your first project in the iR Engine. You can now proceed to [add scenes to your project](link).
+You have successfully created your first project in the iR Engine. You can now proceed to [add scenes to your project](/scene-development/building-and-managing-scenes/add-scenes-to-your-project).
