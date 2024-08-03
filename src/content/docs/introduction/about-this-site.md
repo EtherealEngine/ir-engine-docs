@@ -10,7 +10,7 @@ This website is your gateway to mastering the iR Engine and building immersive 3
 The iR Engine is a powerful web-browser-based application for developing virtual environments experiences with ecommerce capabilities. The iR Engine is perfect for developers, artists, and designers who want to build immersive experiences or reach a user base in a new way.
 
 :::note[Learn about the iR Engine]
-Visit the [What is iR engine](link) document for a complete overview of the engine and its features.
+Visit the [What is iR engine](/introduction/ir-engine-overview) document for a complete overview of the engine and its features.
 :::
 
 ## What you’ll find here
@@ -26,8 +26,9 @@ This documentation is designed to be accessible and easy to understand, catering
 
 Our dedicated support team is here for you!
 
-- **Help widget:** Click the widget in the bottom-right corner of any page for quick assistance.
-- **Contact support:** Contact us directly through the [iR Engine support center](https://help.theinfinitereality.com/hc/en-us) for personalized support.
+- **Help widget:** Click the widget in the bottom-right corner of the iR Engine for quick assistance.
+- **Contact support:** Contact us directly through the <a href="https://help.theinfinitereality.com/hc/en-us" target="_blank" rel="noopener noreferrer">iR Engine Support Center</a>
+ for personalized support.
 
 :::tip[Ready to start?]
 Dive into our **Get started** guides and begin your journey with the iR Engine. We can't wait to see what you build. Happy developing!

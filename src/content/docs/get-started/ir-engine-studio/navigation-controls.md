@@ -5,19 +5,18 @@ description: Learn to navigate the Viewport using a mouse and keyboard.
 
 This guide outlines the fundamental Viewport navigation controls using a mouse and keyboard.
 
+:::tip[Tip: Use a mouse and a keyboard]
+While trackpads offer basic functionality, a mouse with a scroll wheel *is strongly recommended* for precise Viewport control.
+:::
+
 ## About the Viewport
 
 The **Viewport** is your main workspace in the Studio. It displays all active entities in your scene and acts as a window into your virtual world, where you can navigate, preview, and edit the elements of your scene in real time.
 
-> Insert link to the **Viewport panel** document
->
-> Insert screenshot
-> 
+![Viewport window in the Studio](../../../../assets/images/get-started/ir-engine-studio/navigation-controls/viewport-window-studio.png)
 
-Figure 1. Viewport window in the Studio.
-
-:::tip[Tip: Use a mouse and a keyboard]
-While trackpads offer basic functionality, a mouse with a scroll wheel *is strongly recommended* for precise Viewport control.
+:::note
+Consult the [Viewport panel](/get-started/ir-engine-studio/studio-interface/viewport-panel) guide to learn about the actions you can perform in the Viewport.
 :::
 
 ## Mouse actions

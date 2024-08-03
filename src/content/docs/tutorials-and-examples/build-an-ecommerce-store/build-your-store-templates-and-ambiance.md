@@ -82,4 +82,4 @@ Once you add the skybox, it immediately illuminates your scene. You can further 
 
 ## Next steps: Loading and placing Shopify products
 
-With your store layout and ambiance set, the next guide focuses on loading and placing your Shopify products within the scene. This includes creating entities, attaching ecommerce components, and positioning your products for display.
+With your store layout and ambiance set, the next guide focuses on [loading and placing your Shopify products](/tutorials-and-examples/build-an-ecommerce-store/load-and-place-shopify-products) within the scene. This includes creating entities, attaching ecommerce components, and positioning your products for display.

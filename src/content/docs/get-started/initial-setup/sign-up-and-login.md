@@ -9,7 +9,7 @@ This guide explains how to create an iR Engine account and log into the **Consol
 
 Follow these steps to create an iR Engine account:
 
-1. **Access the signup page:** Go to [ir.world/signup](https://ir.world/signup) to open the signup page.
+1. **Access the engine:** Go to [preview.ir.world](https://preview.ir.world/) to open the iR Engine.
 
     ![iR Engine signup page](../../../../assets/images/get-started/initial-setup/sign-up-and-login/ir-engine-signup-page.png)
 
@@ -36,10 +36,10 @@ Follow these steps to create an iR Engine account:
 
 Follow these steps to log into the iR Engine Console:
 
-1. Go to [ir.world](https://ir.world/)
+1. Go to [preview.ir.world](https://preview.ir.world/) to open the engine
 2. Enter your credentials
 3. Click **Log In** to access the Console
 
 ## Need help with your account?
 
-If you run into trouble creating or accessing your account, contact [iR Engine support](https://help.theinfinitereality.com/hc/en-us) for assistance.
+If you run into trouble creating or accessing your account, <a href="https://help.theinfinitereality.com/hc/en-us" target="_blank" rel="noopener noreferrer">contact iR Engine support</a> for assistance.
