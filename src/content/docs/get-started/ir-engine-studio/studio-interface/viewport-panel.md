@@ -112,23 +112,23 @@ The Viewport panel offers various rendering modes to control how your scene appe
 
 ### Unlit
 
-The **Unlit** mode <img src="../../../../../src/assets/images/get-started/ir-engine-studio/studio-interface/viewport-panel/unlit-mode-icon.png" alt="Unlit mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> removes all lighting calculations, resulting in a flat, shadowless view of your scene. It's suitable for initial-scene-setup before adding lighting elements.
+The **Unlit** mode <img src="/assets/images/viewport-panel-icons/unlit-mode-icon.png" alt="Unlit mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> removes all lighting calculations, resulting in a flat, shadowless view of your scene. It's suitable for initial scene setup before adding lighting elements.
 
 ### Lit
 
-The **Lit** mode <img src="../../../../../src/assets/images/get-started/ir-engine-studio/studio-interface/viewport-panel/lit-mode-icon.png" alt="Lit mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> applies lighting calculations but excludes shadows, offering a basic preview of how lighting will affect your scene.
+The **Lit** mode <img src="/assets/images/viewport-panel-icons/lit-mode-icon.png" alt="Lit mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> applies lighting calculations but excludes shadows, offering a basic preview of how lighting will affect your scene.
 
 ### Normals
 
-The **Normals** mode <img src="../../../../../src/assets/images/get-started/ir-engine-studio/studio-interface/viewport-panel/normals-mode-icon.png" alt="Normals mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> displays a special texture map where colors represent the direction of lighting on each surface. This option can be helpful for debugging lighting issues, as variations in color indicate changes in light direction. Normal maps represent textures applied to objects to simulate lighting effects.
+The **Normals** mode <img src="/assets/images/viewport-panel-icons/normals-mode-icon.png" alt="Normals mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> displays a special texture map where colors represent the direction of lighting on each surface. This option can be helpful for debugging lighting issues, as variations in color indicate changes in light direction. Normal maps represent textures applied to objects to simulate lighting effects.
 
 ### Wireframe
 
-The **Wireframe** mode <img src="../../../../../src/assets/images/get-started/ir-engine-studio/studio-interface/viewport-panel/wireframe-mode-icon.png" alt="Wireframe mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> displays your scene geometry as a wireframe construction, useful for visualizing polygons and checking the density of a mesh.
+The **Wireframe** mode <img src="/assets/images/viewport-panel-icons/wireframe-mode-icon.png" alt="Wireframe mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> displays your scene geometry as a wireframe construction, useful for visualizing polygons and checking the density of a mesh.
 
 ### Shadows
 
-The **Shadows** mode <img src="../../../../../src/assets/images/get-started/ir-engine-studio/studio-interface/viewport-panel/shadows-mode-icon.png" alt="Shadows mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> visualizes shadows cast by lights within your scene. Shadows can impact performance, so consider disabling them while working on other aspects of your scene.
+The **Shadows** mode <img src="/assets/images/viewport-panel-icons/shadows-mode-icon.png" alt="Shadows mode icon" style="width: 30px; height: 30px; display: inline; vertical-align: middle; border-radius: 8px;"> visualizes shadows cast by lights within your scene. Shadows can impact performance, so consider disabling them while working on other aspects of your scene.
 
 ### Performance considerations
 
