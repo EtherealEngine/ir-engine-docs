@@ -8,10 +8,10 @@ export default defineConfig({
     starlight({
       title: 'iR Engine Docs',
       logo: {
-				dark: '/src/assets/site-logo-white.png',
-				light: '/src/assets/site-logo-white.png',
-				replacesTitle: true,
-			},
+        dark: '/src/assets/site-logo-white.png',
+        light: '/src/assets/site-logo-white.png',
+        replacesTitle: true,
+      },
       customCss: [
         // Relative path to the custom CSS file
         './src/styles/custom.css',
@@ -34,6 +34,15 @@ export default defineConfig({
           collapsed: false,
           items: [
             {
+              label: 'Initial setup',
+              collapsed: true,
+              items: [
+                { label: 'System requirements (WIP)', slug: 'get-started/initial-setup/system-requirements' },
+                { label: 'Sign up and login', slug: 'get-started/initial-setup/sign-up-and-login' },
+                { label: 'Start a new project', slug: 'get-started/initial-setup/start-a-new-project' },
+              ],
+            },
+            {
               label: 'The iR Engine Studio',
               collapsed: true,
               items: [
@@ -51,15 +60,6 @@ export default defineConfig({
                   ],
                 },
                 { label: 'Navigation controls', slug: 'get-started/ir-engine-studio/navigation-controls' },
-              ],
-            },
-            {
-              label: 'Initial setup',
-              collapsed: true,
-              items: [
-                { label: 'System requirements (WIP)', slug: 'get-started/initial-setup/system-requirements' },
-				{ label: 'Sign up and login', slug: 'get-started/initial-setup/sign-up-and-login' },
-				{ label: 'Start a new project', slug: 'get-started/initial-setup/start-a-new-project' },
               ],
             },
           ],
@@ -104,7 +104,7 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { label: 'Introduction and requirements', slug: 'tutorials-and-examples/build-an-ecommerce-store/introduction-and-prerequisites' },
-				{ label: 'Configure the Shopify plugin', slug: 'tutorials-and-examples/build-an-ecommerce-store/configure-shopify-plugin' },
+                { label: 'Configure the Shopify plugin', slug: 'tutorials-and-examples/build-an-ecommerce-store/configure-shopify-plugin' },
                 { label: 'Build your store: Templates and ambiance', slug: 'tutorials-and-examples/build-an-ecommerce-store/build-your-store-templates-and-ambiance' },
                 { label: 'Load and place Shopify products', slug: 'tutorials-and-examples/build-an-ecommerce-store/load-and-place-shopify-products' },
                 { label: 'Add videos to your store', slug: 'tutorials-and-examples/build-an-ecommerce-store/add-videos-to-your-store' },
