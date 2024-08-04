@@ -37,7 +37,6 @@ export default defineConfig({
               label: 'Initial setup',
               collapsed: true,
               items: [
-                { label: 'System requirements (WIP)', slug: 'get-started/initial-setup/system-requirements' },
                 { label: 'Sign up and login', slug: 'get-started/initial-setup/sign-up-and-login' },
                 { label: 'Start a new project', slug: 'get-started/initial-setup/start-a-new-project' },
               ],
@@ -72,8 +71,8 @@ export default defineConfig({
               label: 'Build and manage scenes',
               collapsed: true,
               items: [
-                { label: 'Scene budget guidelines (WIP)', slug: 'scene-development/building-and-managing-scenes/scene-budget-guidelines' },
                 { label: 'Add scenes to your project', slug: 'scene-development/building-and-managing-scenes/add-scenes-to-your-project' },
+                { label: 'Scene resource guidelines', slug: 'scene-development/building-and-managing-scenes/scene-resource-guidelines' },
               ],
             },
             {
