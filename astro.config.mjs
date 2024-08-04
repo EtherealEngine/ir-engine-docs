@@ -7,6 +7,11 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'iR Engine Docs',
+      logo: {
+				dark: '/src/assets/site-logo-white.png',
+				light: '/src/assets/site-logo-white.png',
+				replacesTitle: true,
+			},
       customCss: [
         // Relative path to the custom CSS file
         './src/styles/custom.css',
