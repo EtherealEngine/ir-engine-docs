@@ -1,5 +1,5 @@
 ---
-title: Introduction the Studio
+title: Introduction to the Studio
 description: Overview of the iR Engine Studio.
 ---
 
