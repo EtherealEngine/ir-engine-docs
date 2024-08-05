@@ -14,6 +14,7 @@ export default defineConfig({
         light: '/src/assets/site-logo-white.png',
         replacesTitle: true,
       },
+      favicon: '/favicon-32x32.png',
       customCss: [
         // Relative path to the custom CSS file
         './src/styles/custom.css',
