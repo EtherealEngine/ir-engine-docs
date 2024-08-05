@@ -114,6 +114,10 @@ export default defineConfig({
           ],
         },
       ],
+      components: {
+        // Use the custom PageFrame component for layout
+        PageFrame: './src/components/CustomPageFrame.astro',
+      },
     }),
   ],
 });

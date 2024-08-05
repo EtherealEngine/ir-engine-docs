@@ -19,3 +19,11 @@ nav ul li ul li details summary .group-label .large { /* Targets nested director
 nav ul li a {
   font-size: 0.9em;
 }
+/* Custom styles for index page background */
+body.index-background {
+  background-image: url('/src/assets/irlogo_background_studio.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
