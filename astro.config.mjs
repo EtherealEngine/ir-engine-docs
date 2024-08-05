@@ -121,11 +121,31 @@ export default defineConfig({
         PageFrame: './src/components/CustomPageFrame.astro',
       },
       head: [
+        // HTML Meta Tags
+        {
+          tag: 'title',
+          content: 'iR Engine Documentation',
+        },
         {
           tag: 'meta',
           attrs: {
             name: 'description',
             content: 'Create realistic immersive experiences directly on the web.',
+          },
+        },
+        // Open Graph Meta Tags for Facebook
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:url',
+            content: 'https://docs.ir.world/',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:type',
+            content: 'website',
           },
         },
         {
@@ -156,18 +176,47 @@ export default defineConfig({
             content: 'iR Engine - Create realistic immersive experiences directly on the web',
           },
         },
+        // Twitter Meta Tags
         {
           tag: 'meta',
           attrs: {
-            property: 'og:url',
-            content: 'https://docs.ir.world',
+            name: 'twitter:card',
+            content: 'summary_large_image',
           },
         },
         {
           tag: 'meta',
           attrs: {
-            property: 'og:type',
-            content: 'website',
+            property: 'twitter:domain',
+            content: 'docs.ir.world',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'twitter:url',
+            content: 'https://docs.ir.world/',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:title',
+            content: 'iR Engine Documentation',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:description',
+            content: 'Create realistic immersive experiences directly on the web.',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            name: 'twitter:image',
+            content: 'https://docs.ir.world/assets/link-preview-background.png',
           },
         },
       ],
