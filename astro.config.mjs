@@ -7,15 +7,15 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'iR Engine Docs',
-      components: {
-        PageFrame: './src/components/CustomPageFrame.astro',
-      },
       logo: {
         dark: '/src/assets/site-logo-white.png',
         light: '/src/assets/site-logo-white.png',
         replacesTitle: true,
       },
-      customCss: ['./src/styles/custom.css'],
+      customCss: [
+        // Relative path to the custom CSS file
+        './src/styles/custom.css',
+      ],
       social: {
         github: 'https://github.com/EtherealEngine',
       },
@@ -114,6 +114,10 @@ export default defineConfig({
           ],
         },
       ],
+      components: {
+        // Use the custom PageFrame component for layout
+        PageFrame: './src/components/CustomPageFrame.astro',
+      },
     }),
   ],
 });
