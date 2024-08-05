@@ -4,9 +4,11 @@ import starlight from '@astrojs/starlight';
 // Astro configuration with Starlight integration
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://docs.ir.world', // Set your site URL here
   integrations: [
     starlight({
-      title: 'iR Engine Docs',
+      title: 'iR Engine Documentation',
+      description: 'Create realistic immersive experiences directly on the web.',
       logo: {
         dark: '/src/assets/site-logo-white.png',
         light: '/src/assets/site-logo-white.png',
@@ -118,7 +120,6 @@ export default defineConfig({
         // Use the custom PageFrame component for layout
         PageFrame: './src/components/CustomPageFrame.astro',
       },
-      
       head: [
         {
           tag: 'meta',
@@ -131,7 +132,7 @@ export default defineConfig({
           tag: 'meta',
           attrs: {
             property: 'og:title',
-            content: 'iR Engine Docs',
+            content: 'iR Engine Documentation',
           },
         },
         {
@@ -145,7 +146,14 @@ export default defineConfig({
           tag: 'meta',
           attrs: {
             property: 'og:image',
-            content: '/src/assets/link-preview-background.png',
+            content: 'https://docs.ir.world/assets/link-preview-background.png',
+          },
+        },
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:image:alt',
+            content: 'iR Engine - Create realistic immersive experiences directly on the web',
           },
         },
         {
@@ -160,34 +168,6 @@ export default defineConfig({
           attrs: {
             property: 'og:type',
             content: 'website',
-          },
-        },
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'twitter:card',
-            content: 'summary_large_image',
-          },
-        },
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'twitter:title',
-            content: 'iR Engine Docs',
-          },
-        },
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'twitter:description',
-            content: 'Create realistic immersive experiences directly on the web.',
-          },
-        },
-        {
-          tag: 'meta',
-          attrs: {
-            name: 'twitter:image',
-            content: '/src/assets/link-preview-background.png',
           },
         },
       ],
