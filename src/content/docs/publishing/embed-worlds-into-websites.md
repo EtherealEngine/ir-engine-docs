@@ -7,31 +7,33 @@ Learn to embed the 3D worlds you create in the Studio into a 2D website using an
 
 ## Embedding your experience using iFrame
 
-Embedding a 3D world in your website allows visitors to interact with your virtual environment directly from their browsers. You can achieve this by obtaining an iFrame link from the iR Engine and inserting it into your website's HTML.
+Embedding a virtual 3D world in your website allows visitors to interact with your virtual environment directly from their browsers. You can achieve this by obtaining an iFrame link from the iR Engine and inserting it into your website's HTML.
 
-## Step 1: Access your 3D world location
+## Step 1: Access your world location
 
-To begin embedding your 3D world, access the URL of your published location. Follow these steps:
+To begin embedding your virtual world, access the URL of your published location. Follow these steps:
 
 1. **Obtain the URL:** Use the URL provided during the publishing process of your project. You can find it by clicking the **Publish** button at the top right of the page.
-2. **Open the experience:** Enter the URL in your web browser to view and share your 3D world.
+2. **Open the experience:** Enter the URL in your web browser to view your virtual experience.
 
 ## Step 2: Retrieve the iFrame code
 
-Inside your experience, retrieve the iFrame code from the iR Engine Studio to embed your 3D world on your website. To do this:
+Inside your world, retrieve the iFrame code from the iR Engine Studio to embed the experience on your website. To do this:
 
 1. **Access the share menu:** Click the **Share** button at the bottom center of your screen.
 2. **Find the embed code:**
    1. Locate the **Embed this Space** field in the **Share** menu.
-   2. Copy the iFrame code from this field to use it for embedding your 3D world.
+   2. Copy the iFrame code from this field to use it for embedding your virtual experience.
+
+![Share menu options](../../../assets/images/publishing/publish-your-projects/share-menu-embed-option.png)
 
 ## Step 3: Insert the iFrame code into your website
 
 Insert the iFrame code into your website using an HTML editor:
 
-1. **Open your website's HTML editor:** Access the HTML editor of the web page where you want to embed the 3D world. You can do this through your website's content management system (CMS) or directly in the HTML code.
-2. **Paste the iFrame code:** Locate the section of your web page where you want the 3D world to appear and paste the copied iFrame code there.
-3. **Save and publish your changes:** Save the changes to your web page and publish the updated content. The 3D world now appears embedded and visible on your website.
+1. **Open your website's HTML editor:** Access the HTML editor of the web page where you want to embed your project. You can do this through your website's content management system (CMS) or directly in the HTML code.
+2. **Paste the iFrame code:** Locate the section of your web page where you want your virtual world to appear and paste the copied iFrame code there.
+3. **Save and publish your changes:** Save the changes to your web page and publish the updated content. Your virtual experience appears embedded and visible on your website.
 
 ## Example iFrame code
 
