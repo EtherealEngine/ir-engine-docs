@@ -95,6 +95,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { label: 'Publish your projects', slug: 'publishing/publish-your-projects' },
+            { label: 'Embed worlds into websites', slug: 'publishing/embed-worlds-into-websites' },
           ],
         },
         {
