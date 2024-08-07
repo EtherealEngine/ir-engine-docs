@@ -3,6 +3,8 @@ title: Optimize assets for performance
 description: Optimize your assets to increase performance
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 Learn to optimize your assets to use within your iR Engine projects and ensure high performance for your creations across devices.
 
 ## General guidelines
@@ -62,11 +64,15 @@ This is the preferred method for in-engine optimization.
 
 **Here's how to use it**:
 
+<Steps>
+
 1. **Open a scene**: Open any scene in the studio.
 2. **Add your asset to your scene**: Drag and drop your model file into the scene from the **File Browser** or **Assets Panel**.
 3. **Select your model in the Hierarchy**: Ensure you select your entity in the **Hierarchy** and find the **Model component** in the **Properties** panel.
 4. **Open Model Transform options**: Expand the **Model** component and find **Model Transform**. Select this option to view its compression settings.
 5. **Optimize the model**: Adjust your compression settings and click the **Optimize** button when finished. This creates a new, optimized model file with the -transformed suffix. Use this optimized file instead of the original.
+
+</Steps>
 
 ### Compression panel
 
@@ -74,10 +80,14 @@ This panel offers a more advanced interface for compression.
 
 **Here's a step-by-step guide**:
 
+<Steps>
+
 1. **Locate the model file**: Find the model file you want to compress in the **File Browser**.
 2. **Open the compression panel**: Right-click the file and select **Compress** to open the compression panel.
 3. **Optimize the file**: After adjusting your compression settings, click "**Optimize**" to complete the process.
 4. **Use the optimized file**: Use the new file instead of the original, which includes new files and an LOD prefab with the integrated-prefab suffix.
+
+</Steps>
 
 ### LOD on import
 

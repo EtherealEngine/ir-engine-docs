@@ -3,14 +3,20 @@ title: Load assets into scenes
 description: Learn to load assets into scenes to build your experience.
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 Learn to load assets into your scenes within the iR Engine Studio to enhance your projects.
 
 ## Access the Assets Library
 
 The **Assets Library** is your central hub for all available assets. It is located inside the **Assets tab** and it includes both preloaded assets and allows you to upload your own. To access the library from the Studio:
 
+<Steps>
+
 1. Click on the **Assets** tab located in the bottom left panel.
 2. Browse through categories such as **Models**, **Textures**, **Lighting**, and more. Use the search bar to quickly find specific assets.
+
+</Steps>
 
 ![Assets library showcasing a prop model](../../../../assets/images/scene-development/work-with-assets/load-assets-into-scenes/assets-library-prop-model.png)
 
@@ -34,9 +40,13 @@ The following sections contain details for both options.
 
 To load assets into your scene via the **Hierarchy** panel, follow these steps:
 
+<Steps>
+
 1. In the **Files** or **Assets** tab, locate the asset you want to use.
 2. Drag the asset into the **Hierarchy** panel.
 3. Release the asset at the desired location within the hierarchy.
+
+</Steps>
 
 ![An asset loaded into the Hierarchy](../../../../assets/images/scene-development/work-with-assets/load-assets-into-scenes/asset-loaded-hierarchy.png)
 
@@ -44,9 +54,13 @@ To load assets into your scene via the **Hierarchy** panel, follow these steps:
 
 For a more visual placement, you can load assets directly into the **Viewport**:
 
+<Steps>
+
 1. In the **Files** or **Assets** tab, locate the asset you want to use.
 2. Drag the asset into the **Viewport** at the desired location.
 3. Adjust the placement as needed by dragging the asset within the viewport.
+
+</Steps>
 
 ![An asset loaded into the Viewport](../../../../assets/images/scene-development/work-with-assets/load-assets-into-scenes/asset-loaded-viewport.png)
 
@@ -54,8 +68,12 @@ For a more visual placement, you can load assets directly into the **Viewport**:
 
 After placing your asset into either the **Hierarchy** or the **Viewport**, the Studio performs the following actions:
 
+<Steps>
+
 1. It creates a new entity in the **Hierarchy** panel for your asset.
 2. It places your new entity at the bottom of the **Hierarchy** by default unless you add your asset to another entity.
+
+</Steps>
 
 :::note[What are entities?]
 Think of entities as containers within your scene. Each entity holds a collection of assets and acts as a building block for your project.

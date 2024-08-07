@@ -3,17 +3,21 @@ title: Set up spatial audio
 description: Create realistic sound environments with spatial audio for your store.
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 This guide walks you through loading an audio file, attaching it to an entity, and configuring the spatial audio settings.
 
 ## About spatial audio
 
-Adding spatial audio to your virtual store enhances the immersive experience by creating a realistic sound environment. Spatial audio allows you to configure audio settings based on object positioning and proximity to the user’s avatar. 
+Adding spatial audio to your virtual store enhances the immersive experience by creating a realistic sound environment. Spatial audio allows you to configure audio settings based on object positioning and proximity to the user’s avatar.
 
 ## Step 1. Load your audio file and attach it to your entity
 
 First, load an audio file and attach it to an entity in your scene.
 
 **To load an audio file:**
+
+<Steps>
 
 1. **Select your entity:** Choose the entity to which you want to attach the audio file in the **Hierarchy** panel to display its properties.
 
@@ -31,11 +35,15 @@ First, load an audio file and attach it to an entity in your scene.
 
     Alternatively, right-click the file in the **Files** tab, copy its URL, and paste it into the source path field.
 
+</Steps>
+
 ## Step 2. Set up a positional audio component in your entity
 
 Once the audio file is attached, add a positional audio component to your entity to enable spatial audio settings.
 
 **To add a positional audio component:**
+
+<Steps>
 
 1. **Activate your entity:** Ensure your entity is selected and active in the **Hierarchy** panel.
 2. **Add a new component:** Click the **Add Component** button in the **Properties** panel to display the list of available components.
@@ -49,21 +57,27 @@ Once the audio file is attached, add a positional audio component to your entity
 
     ![Positional Audio component added to your entity](../../../../assets/images/tutorials-and-examples/build-an-ecommerce-store-with-shopify-integration/set-up-spatial-audio/positional-audio-component-entity.png)
 
+</Steps>
+
 ## Step 3. Configure the positional audio settings
 
 After adding the positional audio component, configure its settings to define how the audio behaves in the scene.
 
 **To configure positional audio:**
 
+<Steps>
+
 1. **Expand the Positional Audio component:** In the **Properties** panel, expand the **Positional Audio** component to view its settings.
 
     ![Settings for Positional Audio](../../../../assets/images/tutorials-and-examples/build-an-ecommerce-store-with-shopify-integration/set-up-spatial-audio/positional-audio-settings.png)
 
-2. **Adjust audio settings:** Configure settings such as the **distance model**, **rolloff factor**, **reference distance**, **audio cone angles**, and **max distance**. 
+2. **Adjust audio settings:** Configure settings such as the **distance model**, **rolloff factor**, **reference distance**, **audio cone angles**, and **max distance**.
 
     These settings determine how the audio is perceived based on the listener’s position relative to the audio source.
 
 3. **Test the spatial audio: Save** your scene and use the **preview** function to test the spatial audio settings. Move around the scene to ensure the audio behaves as expected, creating a realistic and immersive environment.
+
+</Steps>
 
 ## Next steps: Publishing your store
 

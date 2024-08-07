@@ -3,6 +3,8 @@ title: Import files and assets
 description: Learn to import files and assets into your project.
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 Learn to import files and assets into your project so you can use them in your scenes.
 
 ## Formats supported and size limit
@@ -57,9 +59,13 @@ To import a complete glTF model that consists of multiple files, you must first 
 
 **To upload your folder**:
 
+<Steps>
+
 1. Navigate to the **Files** tab in the Studio.
 2. Click the **Upload Folder** button.
 3. Select the folder containing all your glTF model files for upload.
+
+</Steps>
 
 :::note[Uploading folders]
 The iR Engine does not support uploading folders using single file upload methods. Always use the **Upload Folder** button in the **Files** tab to import multiple files belonging to a single asset, like in the case of gLTF files.
