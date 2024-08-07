@@ -11,7 +11,7 @@ export default defineConfig({
       description: 'Create realistic immersive experiences directly on the web.',
       logo: {
         dark: '/src/assets/site-logo-white.png',
-        light: '/src/assets/site-logo-white.png',
+        light: '/src/assets/site-logo-black.png',
         replacesTitle: true,
       },
       favicon: '/favicon-32x32.png',

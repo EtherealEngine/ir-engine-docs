@@ -31,39 +31,6 @@ body.index-background {
   background-attachment: fixed;
 }
 
-/* Base styles for the navigation */
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-
-/* Top-level directory labels (1st level nested groups) */
-nav ul > li > details > summary .group-label .large {
-  /* Targets the top-level directory labels only */
-  font-size: 1em;
-}
-
-/* Second-level directory labels (2nd level nested groups) */
-nav ul li ul li details summary .group-label .large {
-  /* Targets nested directory labels */
-  font-size: 0.9em;
-  font-weight: normal;
-}
-
-/* Style the text within the anchor tags (documents) */
-nav ul li a {
-  font-size: 0.9em;
-}
-
-/* Custom styles for index page background */
-body.index-background {
-  background-image: url('/src/assets/irlogo_background_studio.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 /* Styles for images inside Markdown content */
 .sl-markdown-content img,
 .sl-markdown-content picture img,
@@ -74,4 +41,18 @@ body.index-background {
   box-shadow: 0 2px 6px rgba(255, 255, 255, 0.15);
   margin: 1rem 0;
   display: block;
+}
+
+/* Light mode overrides for index.mdx */
+:root[data-theme="light"] {
+  /* Target specific elements by class */
+  .astro-jbfsktt5, 
+  .astro-yjy4zhro {
+    color: #ffffff; /* Set text color to white */
+  }
+
+  /* Target anchor text within the action button */
+  .astro-yjy4zhro a { 
+    color: #ffffff; /* Ensure link text is also white */
+  }
 }
