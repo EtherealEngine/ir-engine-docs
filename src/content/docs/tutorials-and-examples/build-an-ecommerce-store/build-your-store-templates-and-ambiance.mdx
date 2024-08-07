@@ -3,6 +3,7 @@ title: Build your store and set up the ambiance
 description: Start building your store using templates and set the ambiance.
 ---
 
+import { Steps } from '@astrojs/starlight/components';
 
 With your Shopify store integrated, it’s time to build the visual and interactive elements of your virtual store. This guide helps you use predefined templates to create a modern store layout and set the ambiance using a skybox. These steps enhance the user experience and bring your virtual shopping environment to life.
 
@@ -10,8 +11,12 @@ With your Shopify store integrated, it’s time to build the visual and interact
 
 To start building your virtual store, first, you must launch your project in the Studio.
 
+<Steps>
+
 1. **Find your project**: Locate your project on the **My Projects** page.
 2. **Launch the Studio**: Select or create a scene where you want to start building your store.
+
+</Steps>
 
 This action launches your project in the Studio, making your scene active and ready for building.
 
@@ -24,6 +29,8 @@ If you cannot find templates that resemble a modern store to use in this tutoria
 :::
 
 **To add your store model template:**
+
+<Steps>
 
 1. **Open the assets library:** Go to the **Assets** tab located at the bottom left of the Studio interface.
 
@@ -54,11 +61,15 @@ If you cannot find templates that resemble a modern store to use in this tutoria
    - After adding the template, the model appears in the center of your project in the **Viewport**.
    - Test the scene by clicking the preview button and using the **WASD** keys to navigate.
 
+</Steps>
+
 ## Step 3. Set the ambiance of your store by adding a skybox
 
 A skybox is a spherical environment that surrounds your scene, providing lighting and ambiance. For this tutorial, add a desert-themed skybox to create a bright and warm atmosphere. To add a skybox:
 
 ### 1. Enable skybox settings
+
+<Steps>
 
 1. Locate the **EE_skybox** entity in the **Hierarchy** panel.
 2. Select the entity to open its components in the **Properties** panel.
@@ -69,7 +80,11 @@ A skybox is a spherical environment that surrounds your scene, providing lightin
 
     ![Skybox component showing Sky Type settings](../../../../assets/images/tutorials-and-examples/build-an-ecommerce-store-with-shopify-integration/build-your-store-templates-and-ambiance/skybox-component-sky-type.png)
 
+</Steps>
+
 ### 2. Assign a skybox image
+
+<Steps>
 
  1. In the **Assets** tab, find and expand the **Skybox** category to view available skybox images.
  2. Locate the `desert_daytime_04.png` file.
@@ -77,6 +92,8 @@ A skybox is a spherical environment that surrounds your scene, providing lightin
     ![Assets available for Skybox files](../../../../assets/images/tutorials-and-examples/build-an-ecommerce-store-with-shopify-integration/build-your-store-templates-and-ambiance/skybox-files-assets.png)
 
  3. Drag and drop the `desert_daytime_04.png` file into the **Texture** field in the **Properties** panel, ensuring the **EE_skybox** entity is selected.
+
+</Steps>
 
 Once you add the skybox, it immediately illuminates your scene. You can further configure the skybox settings in the **Hierarchy** panel.
 

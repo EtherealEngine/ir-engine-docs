@@ -3,6 +3,8 @@ title: Add videos to your store
 description: Include videos in your store to increase engagement.
 ---
 
+import { Steps } from '@astrojs/starlight/components';
+
 Videos can significantly enhance the interactivity and engagement of your virtual store. By adding videos to your store, you can provide promotional content, product demonstrations, or immersive environments. This guide walks you through creating video entities and configuring video resources to play within your scene.
 
 ![Example of a video on a screen](../../../../assets/images/tutorials-and-examples/build-an-ecommerce-store-with-shopify-integration/add-videos-to-your-store/video-screen-example.png)
@@ -13,6 +15,8 @@ To play videos in your store, you first need to create entities that will act as
 
 **To create a video entity:**
 
+<Steps>
+
 1. **Add a new entity:** Click the **Add Entity** button in the **Hierarchy** panel.
 2. **Select Video:** From the options available, select **Video**. This action adds a new video entity to your **Hierarchy**.
 
@@ -20,11 +24,15 @@ To play videos in your store, you first need to create entities that will act as
 
 3. **Activate the video entity:** Ensure your new video entity is selected in the **Hierarchy** panel so its components are displayed in the **Properties** panel.
 
+</Steps>
+
 ## Step 2. Add video resources to your video entity
 
 After creating a video entity, you need to specify the video source that will play on it.
 
 **To add a video resource:**
+
+<Steps>
 
 1. **Select the video entity:** Make sure your video entity is active in the **Hierarchy** panel.
 2. **Expand the Media component:** In the **Properties** panel, expand the **Media** component to view its options.
@@ -44,16 +52,20 @@ After creating a video entity, you need to specify the video source that will pl
 
     ![Copy URL options on a file](../../../../assets/images/tutorials-and-examples/build-an-ecommerce-store-with-shopify-integration/add-videos-to-your-store/copy-url-options-file.png)
 
+</Steps>
+
 ## Step 3. Configure video settings
 
 With the video source linked, you can further configure the video settings to fit your store’s needs.
 
 **To configure video settings:**
 
-1. **Select the video entity:**
-    - Ensure your video entity is active in the **Hierarchy** panel.
-2. **Adjust video settings:**
-    - In the **Properties** panel, use both the **Video** and **Media** components to configure your settings. Here, you can adjust options such as playback settings, loop options, and volume control.
+<Steps>
+
+1. **Select the video entity:** Ensure your video entity is active in the **Hierarchy** panel.
+2. **Adjust video settings:** In the **Properties** panel, use both the **Video** and **Media** components to configure your settings. Here, you can adjust options such as playback settings, loop options, and volume control.
+
+</Steps>
 
 ## Next steps: Setting up spatial audio
 
