@@ -24,6 +24,10 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: 'Site navigation',
+          slug: 'site-navigation',
+        },
+        {
           label: 'Introduction',
           collapsed: false,
           items: [
