@@ -121,6 +121,10 @@ export default defineConfig({
             },
           ],
         },
+        {
+          label: 'Release notes',
+          slug: 'release-notes',
+        },
       ],
       components: {
         // Use the custom PageFrame component for layout
