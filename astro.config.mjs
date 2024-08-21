@@ -66,6 +66,7 @@ export default defineConfig({
                   ],
                 },
                 { label: 'Navigation controls', slug: 'get-started/ir-engine-studio/navigation-controls' },
+                { label: 'Shortcuts and hotkeys', slug: 'get-started/ir-engine-studio/shortcuts-and-hotkeys' },
               ],
             },
           ],
